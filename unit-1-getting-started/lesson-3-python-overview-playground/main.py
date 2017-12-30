@@ -16,3 +16,9 @@ else:
 
 if age > 30:
     pass
+
+
+# This should stay at the top
+from random import randint
+
+print(randint(0, 100))
