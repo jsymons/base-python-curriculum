@@ -1,4 +1,4 @@
-# Is Divisible By
+# Check Divisibility
 
 Complete the code on the editor to answer to the questions if 583 is divisible by 11 and 911 is divisible by 11.
 
