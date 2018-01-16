@@ -1,8 +1,8 @@
 # Is Char in String
 
-Use a while loop to complete the function `char_in_string` to check if `char_to_look_for` is in `a_string`. 
+Use a for loops to complete the function `char_in_string` to check if `char_to_look_for` is in `a_string`.
 
-Do NOT use the `in` keyword to determine if it is in there. 
+Do NOT use the `in` keyword to determine if it is in there.
 
 Return True if it is there and False if it is not.
 
