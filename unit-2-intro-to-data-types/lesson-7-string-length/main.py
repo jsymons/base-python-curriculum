@@ -1,0 +1,9 @@
+language = "Python"
+name = "Guido Van Rossum"
+
+string_template = "{name} is the creator of {language}"
+text = string_template.format(name=name, language=language)
+
+length_of_language = ?
+length_of_name = ?
+length_of_text = ?
