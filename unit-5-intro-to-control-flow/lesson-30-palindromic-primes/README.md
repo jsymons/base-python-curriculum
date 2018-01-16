@@ -1,5 +1,7 @@
 # Palindromic Primes
 
+**Solve this assignment using while loops**
+
 A [palindromic number](https://en.wikipedia.org/wiki/Palindromic_number) is a number that reads the same forwards and backwards. Example: "121" (You read: "one, two, one", forwards and backwards). "1001" ("one, zero, zero, one"), etc.
 
 Write a function `next_palindromic_prime` that receives a number and returns the closest larger number that's both a prime and palindromic.
