@@ -1,3 +1,5 @@
 uuid = "5ca9edfb-3f23-41ff-91ad-0b15d5e01d86"
 name = "Python Overview"
 type = "reading"
+youtube_id = "STuBxYlQUQM"
+description = "Python Overview (comments, variables, indentation, etc)"
