@@ -1,4 +1,4 @@
-# Other List Operations
+Most important list operations covered during this video:
 
 * `in`
 * `len`
