@@ -1,4 +1,11 @@
-# Checking Existence of Elements
+Most important list operations covered during this video:
+
+* `in`
+* `len`
+* `count`
+* `index`
+
+# The `in` operator
 
 Checking if a given element is part of a list is a simple operation that will involve the `in` operator. Let's see an example first:
 
