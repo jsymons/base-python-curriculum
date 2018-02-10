@@ -1,4 +1,3 @@
-
 ### Understanding `range()`
 
 Sometimes you don't need to iterate over a collection; but just a given number of times. For example, repeat 3 times a query to a database. Or perform 5 attempts to create a user. Your objective is to repeat something X times.
