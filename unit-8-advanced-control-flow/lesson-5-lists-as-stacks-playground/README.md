@@ -1,1 +1,0 @@
-# Lists as Stacks Playground
