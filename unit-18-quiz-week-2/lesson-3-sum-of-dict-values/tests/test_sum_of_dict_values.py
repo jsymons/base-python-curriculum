@@ -1,8 +1,8 @@
 def test_sum_of_dict_values():
     d1 = {
-    'a': 10,
-    'b': 30,
-    'c': 5
+        'a': 10,
+        'b': 30,
+        'c': 5
     }
 
     d2 = {

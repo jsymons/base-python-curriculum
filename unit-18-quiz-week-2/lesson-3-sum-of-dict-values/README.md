@@ -28,7 +28,7 @@ d3 = {
 result == {
     'a': 22,
     'b': 53,
-    'c': None
+    'c': None  # d3 has an invalid value, can't be handled
 }
 
 sum_of_dict_values(d1, d2, d3) == result
