@@ -7,9 +7,9 @@ You can use `pop` or `del` to remove key-value pairs.
 
 ```python
 expressions = {
-               "pumped": "I'm so darn excited!",
-               "happy": "Yeehaw",
-               "agreeable": "darn tootin!"
+    "pumped": "I'm so darn excited!",
+    "happy": "Yeehaw",
+    "agreeable": "darn tootin!"
 }
 
 assert censor_dictionary(expressions, "darn") == {"happy": "Yeehaw"}
