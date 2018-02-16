@@ -178,7 +178,7 @@ for i in range(len(users)):
     John
 
 
-**THIS IS WRONG ☠️**
+**THIS IS WRONG ☠**
 
 It's difficult to read and **highly inefficient**; and that's the whole purpose of a for loop. The same code is as simple as:
 
