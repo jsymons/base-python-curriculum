@@ -1,9 +1,9 @@
 # Multi-search
 
 Write a function `search_animals` that receives 3 parameters:
-- a required parameter called `list_of_animals` that receives a list of animal dictionaries
-- an optional parameter called `given_name` that will be used as an optional search term
-- an optional parameter called `animal_type` that will be used as an optional search term
+* a required parameter called `list_of_animals` that receives a list of animal dictionaries
+* an optional parameter called `given_name` that will be used as an optional search term
+* an optional parameter called `animal_type` that will be used as an optional search term
 
 First, take a good look at the structure of the example animal list.
 
@@ -57,7 +57,7 @@ animals = [
 ]
 ```
 
-The goal is to be able to search this list of animals by the animals `given_name` and/or the `animal_type`, for each of those combinations.
+The goal is to be able to search this list of animals by the animal's `given_name` and/or the `animal_type`, for each of those combinations.
 
 Optional arguments enable you to have these types of search combinations. 
 
