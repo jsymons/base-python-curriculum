@@ -1,4 +1,4 @@
-# emptydef test_add_book_to_purchase_default_price():
+test_add_book_to_purchase_default_price():
     purchase = {
         'id': 99,
         'books': [{
