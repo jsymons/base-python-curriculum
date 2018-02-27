@@ -9,12 +9,15 @@ Hint: You'll need to use `datetime.strptime` to do this one.
 https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
 
 Helpful strptime formatting codes:
+
+```
 %B = Full Month Name
 %d = 2-digit Day Number for the Month
 %Y = 4-digit Year
 %y = 2-digit Year
 %A = Full Weekday Name
 %a = Abbreviated Weekday Name
+```
 
 To do this, you'd do something like the following in your code:
 ```python
