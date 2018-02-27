@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-def parse_dates(date):
+def parse_dates(date_string):
     formats = [
         '%B %d, %Y',
         '%B %d, %y',
@@ -12,7 +12,7 @@ def parse_dates(date):
 
     for format in formats:
         try:
-            return datetime.strptime(date, format)
+            return datetime.strptime(date_string, format)
         except ValueError:
             pass
 
