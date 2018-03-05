@@ -16,7 +16,7 @@ class Line(object):
         return self.p1.y - (m * self.p1.x)
     
     def formula(self):
-        tpl = 'y = {m}x + {b}'
+        tpl = 'y = {m}x + {b:g}'
         m = self.slope()
         if m == 1:
             m = ''

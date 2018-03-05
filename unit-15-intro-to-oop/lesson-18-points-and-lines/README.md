@@ -11,10 +11,17 @@ It needs the following 3 methods:
     Equation: **(y2 - y1)/(x2 - x1)**
 * `y_intercept` that returns the y-intercept of the line
     Equation: **y1 - (slope * x1)**
-* `formula` that returns a string of the formula of the line (if the slope is 1, omit it)
+* `formula` that returns a string of the formula of the line (if the slope is 1, omit it).
     Equation: **y = mx + b** where m is slope and b is y-intercept
 
 Note: None of these methods receive any external parameters
+
+For the `formula` string, if the slope or y-intercept can be truncated (e.g. using 1 instead of 1.0), do it using {:g} in your string formatting. 
+
+```python
+"{:g}".format(3.0) # 3
+"{:g}".format(3.2) # 3.2
+```
 
 Example:
 

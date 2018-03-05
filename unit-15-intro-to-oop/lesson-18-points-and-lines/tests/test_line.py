@@ -6,4 +6,4 @@ def test_line():
 
     assert l.slope() == 1
     assert l.y_intercept() == 1
-    assert l.formula() == 'y = x + 1.0'
+    assert l.formula() == 'y = x + 1'
