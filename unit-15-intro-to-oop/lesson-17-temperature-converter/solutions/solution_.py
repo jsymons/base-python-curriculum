@@ -1,7 +1,7 @@
 class NoTemperatureException(Exception):
     pass
 
-class TempConverter:
+class TempConverter(object):
     def __init__(self, fahrenheit=None, celsius=None):
         if not fahrenheit and not celsius:
             raise NoTemperatureException()

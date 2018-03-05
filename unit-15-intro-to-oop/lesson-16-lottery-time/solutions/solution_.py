@@ -1,7 +1,7 @@
 import random
 
 
-class Lottery:
+class Lottery(object):
     def __init__(self, numbers=None):
         if numbers is None:
             numbers = range(0, 50)
