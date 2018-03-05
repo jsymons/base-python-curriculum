@@ -16,7 +16,7 @@ It needs the following 3 methods:
 
 Note: None of these methods receive any external parameters
 
-For the `formula` string, if the slope or y-intercept can be truncated (e.g. using 1 instead of 1.0), do it using {:g} in your string formatting. 
+For the `formula` string, if the y-intercept can be truncated (e.g. using 1 instead of 1.0), do it using {:g} in your string formatting. 
 
 ```python
 "{:g}".format(3.0) # 3
