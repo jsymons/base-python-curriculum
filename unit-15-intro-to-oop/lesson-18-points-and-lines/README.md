@@ -19,8 +19,8 @@ Note: None of these methods receive any external parameters
 For the `formula` string, if the y-intercept can be truncated (e.g. using 1 instead of 1.0), do it using {:g} in your string formatting. 
 
 ```python
-"{:g}".format(3.0) # 3
-"{:g}".format(3.2) # 3.2
+"{b:g}".format(b=3.0) # 3
+"{b:g}".format(b=3.2) # 3.2
 ```
 
 Example:
