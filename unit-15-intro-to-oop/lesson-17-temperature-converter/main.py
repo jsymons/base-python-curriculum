@@ -1,1 +1,1 @@
-# empty
+# Define your class here!
