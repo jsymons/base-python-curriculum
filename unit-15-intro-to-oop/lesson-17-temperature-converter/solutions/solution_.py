@@ -11,9 +11,9 @@ class TempConverter:
     def to_celsius(self):
         if self.temp_celsius:
             return self.temp_celsius
-        return round((self.temp_fahrenheit - 32) * 5/9, 1)
+        return round((float(self.temp_fahrenheit) - 32) * 5/9, 1)
 
     def to_fahrenheit(self):
         if self.temp_fahrenheit:
             return self.temp_fahrenheit
-        return round((self.temp_celsius * 9/5) + 32, 1)
+        return round((float(self.temp_celsius) * 9/5) + 32, 1)

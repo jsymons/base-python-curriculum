@@ -4,10 +4,10 @@ class InvalidAreaUnitException(Exception):
 
 class Country(object):
     def population_density(self):
-        return self.population / self.area_in_km2
+        return float(self.population) / self.area_in_km2
 
     def gdp_per_capita(self):
-        return self.total_gdp / self.population
+        return float(self.total_gdp) / self.population
 
     def area(self, unit='km2'):
         if unit == 'km2':
