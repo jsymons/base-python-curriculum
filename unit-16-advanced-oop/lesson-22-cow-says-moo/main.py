@@ -1,1 +1,4 @@
-# empty
+class Animal(object):
+    pass
+
+
