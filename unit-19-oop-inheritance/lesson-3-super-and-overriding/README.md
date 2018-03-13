@@ -1,1 +1,1 @@
-The Notebook for this lesson can be found [here](https://github.com/rmotr-curriculum/base-python-curriculum/blob/master/unit-17-oop-inheritance/lesson-3-super-and-overriding/Super%20and%20Overriding.ipynb).
+The Notebook for this lesson can be found [here](https://github.com/rmotr-curriculum/base-python-curriculum/blob/master/unit-19-oop-inheritance/lesson-3-super-and-overriding/Super%20and%20Overriding.ipynb).
