@@ -1,4 +1,0 @@
-class Animal(object):
-    pass
-
-
