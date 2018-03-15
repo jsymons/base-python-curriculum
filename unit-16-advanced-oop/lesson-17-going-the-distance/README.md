@@ -7,9 +7,9 @@ For the `convert_to_meters` method, the formula is multiplying the object's valu
 Use https://rszalski.github.io/magicmethods/ for magic method guidance, and read the tests if you get stuck.
 
 ```python
-d1 = Distance(4, "ft")
-d2 = Distance(1)
-d3 = Distance(1000, "mm")
+d1 = Distance(4, "ft")    # 4 feet = 1.21 meter
+d2 = Distance(1)          # 1 meter (meter by default)
+d3 = Distance(1000, "mm") # 1 meter
 
 list_of_distances =[d1, d2]
 
