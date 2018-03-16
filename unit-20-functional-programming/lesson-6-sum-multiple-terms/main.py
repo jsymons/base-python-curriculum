@@ -1,1 +1,2 @@
-# empty
+def sum_multiple():
+    pass
