@@ -1,1 +1,1 @@
-# Map, Filter, and Reduce
+Access [Lesson's Notebook here](https://github.com/rmotr-curriculum/base-python-curriculum/blob/master/unit-20-functional-programming/lesson-4-map-filter-and-reduce/Map%2C%20Filter%20and%20Reduce.ipynb).

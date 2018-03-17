@@ -1,1 +1,1 @@
-# Functions as First Class Object
+Access [Lesson's Notebook here](https://github.com/rmotr-curriculum/base-python-curriculum/blob/master/unit-20-functional-programming/lesson-2-functions-as-first-class-objects/Functions%20as%20first%20class%20objects.ipynb).
