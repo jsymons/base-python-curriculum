@@ -1,3 +1,9 @@
+try:
+    reduce
+except NameError:
+    from functools import reduce
+
+
 def factorial_terms(a_number):
     if a_number < 0:
         raise ValueError("Only defined for positive numbers")

@@ -10,3 +10,5 @@ Example:
 comma_code(['apples', 'bananas', 'tofu', 'cats']) # 'apples, bananas, tofu and cats'
 comma_code(['apples', 'bananas']) # 'apples and bananas'
 ```
+
+This assignment is also designed to be resolved with a `reduce` function, but use your common sense to judge it.

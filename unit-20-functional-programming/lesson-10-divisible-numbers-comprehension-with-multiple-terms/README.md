@@ -5,3 +5,5 @@ Write a function that receives a list of numbers and a list of terms and returns
 ```python
 divisible_numbers([12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1], [2, 3]) == [12, 6]
 ```
+
+Warning, this assignment is difficult. If you get stuck, try working it with a for-loop first and then start turning it into list comprehensions.
