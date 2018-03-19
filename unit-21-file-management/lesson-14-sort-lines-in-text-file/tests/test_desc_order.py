@@ -1,3 +1,5 @@
+import tempfile
+
 def test_desc_order():
     fp = tempfile.NamedTemporaryFile(mode="w")
     fp.write('line 3\n')
