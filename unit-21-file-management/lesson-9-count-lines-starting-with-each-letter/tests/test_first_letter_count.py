@@ -8,7 +8,7 @@ def test_first_letter_count():
     fp.write('house\n')
     fp.flush()
 
-    counter = counter_by_letter('fp.name')
+    counter = counter_by_letter(fp.name)
     assert len(counter.keys()) == 26
     assert counter['c'] == 2
     assert counter['t'] == 1
