@@ -12,4 +12,4 @@ def test_write_string_with_overwrite():
     with open(fp.name) as fp:
         assert len(fp.readlines()) == 1
         fp.seek(0)
-        assert f.readlines()[0] == 'my name is john\n'
+        assert fp.readlines()[0] == 'my name is john\n'
