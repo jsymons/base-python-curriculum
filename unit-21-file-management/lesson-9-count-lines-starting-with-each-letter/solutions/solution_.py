@@ -6,4 +6,4 @@ def counter_by_letter(filepath):
         read_data = fp.readlines()
         for line in read_data:
             result[line[0]] += 1
-        return letters
+        return result
