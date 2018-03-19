@@ -1,6 +1,6 @@
 # Get Filename with Max Lines
 
-Write a function, that receives one or many file paths as parameters and returns
+Write a function that receives one or many file paths as parameters and returns
 the name of the file with max amount of lines.
 
 Example:

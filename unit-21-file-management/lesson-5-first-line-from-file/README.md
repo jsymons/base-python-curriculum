@@ -1,6 +1,6 @@
 # First Line from File
 
-Write a function, that receives a path to a text file as parameter, and returns the first line of that file.
+Write a function that receives a path to a text file as parameter, and returns the first line of that file.
 
 Example:
 

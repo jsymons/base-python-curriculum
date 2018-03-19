@@ -1,6 +1,6 @@
 # Nth Line from File
 
-Write a function, that receives a path to a text file and a line number as parameter,  and returns the N-th line of that file.
+Write a function that receives a path to a text file and a line number as parameter,  and returns the N-th line of that file.
 
 Example:
 
