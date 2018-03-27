@@ -36,6 +36,6 @@ INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Blac
 # Finish Database Setup
 
 
-def get_all_movies(db_connection, table_name):
-    cursor = db_connection.execute('SELECT * FROM %s' % table_name)
+def get_all_movies(db_connection):
+    cursor = db_connection.execute('SELECT * FROM marvel')
     return cursor.fetchall()

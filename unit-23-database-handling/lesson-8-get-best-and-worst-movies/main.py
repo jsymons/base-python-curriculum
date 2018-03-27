@@ -1,4 +1,5 @@
 import sqlite3
+
 # Database setup: Please don't change this
 db = sqlite3.connect("file::memory:?cache=shared")
 
@@ -35,5 +36,5 @@ INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Blac
 # Database setup ends here
 
 
-def get_best_and_worst_movies(db_connection, table_name, rating_type, order_dir, limit=5):
+def get_best_and_worst_movies(db_connection, rating_type, order_dir, limit=5):
     pass
