@@ -35,7 +35,7 @@ INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Blac
 
 
 def get_movies_and_directors(db, limit=5):
-    query = 'SELECT title, director FROM %s LIMIT :limit'
+    query = 'SELECT title, director FROM marvel LIMIT :limit'
     cursor = db.execute(query, {
         'limit': limit
     })
