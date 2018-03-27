@@ -1,5 +1,4 @@
 import sqlite3
-# Database setup: Please don't change this
 db = sqlite3.connect("file::memory:?cache=shared")
 
 db.executescript("""
@@ -33,8 +32,7 @@ INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (16, 'Spid
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (17, 'Thor: Ragnarok', 'Taika Waititi', 92, 74);
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Black Panther', 'Ryan Coogler', 97, 88);
 """)
-# Finish Database Setup
 
-def get_all_movies(db_connection, table_name):
-    # Your code here
+
+def get_movies_and_directors(db_connection, table_name, limit=5):
     pass

@@ -1,9 +1,9 @@
 import sqlite3
+
 # Database setup: Please don't change this
 db = sqlite3.connect("file::memory:?cache=shared")
 
 db.executescript("""
-
 drop table if exists marvel;
 create table marvel (
   id integer primary key autoincrement,
@@ -33,8 +33,16 @@ INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (16, 'Spid
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (17, 'Thor: Ragnarok', 'Taika Waititi', 92, 74);
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Black Panther', 'Ryan Coogler', 97, 88);
 """)
-# Finish Database Setup
 
-def get_all_movies(db_connection, table_name):
-    # Your code here
-    pass
+
+
+def get_best_and_worst_movies(db_connection, table_name, rating_type, order_dir, limit=5):
+    query = ('SELECT title, {rating_type} FROM {table_name} ORDER BY '
+             '{rating_type} {direction} LIMIT :limit').format(
+                rating_type=rating_type, table_name=table_name,
+                direction=order_dir)
+
+    cursor = db_connection.execute(query, {
+      'limit': limit
+    })
+    return cursor.fetchall()

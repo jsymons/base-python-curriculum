@@ -3,7 +3,6 @@ import sqlite3
 db = sqlite3.connect("file::memory:?cache=shared")
 
 db.executescript("""
-
 drop table if exists marvel;
 create table marvel (
   id integer primary key autoincrement,
@@ -32,9 +31,9 @@ INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (15, 'Guar
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (16, 'Spider-Man: Homecoming', 'Jon Watts', 92, 73);
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (17, 'Thor: Ragnarok', 'Taika Waititi', 92, 74);
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Black Panther', 'Ryan Coogler', 97, 88);
-""")
-# Finish Database Setup
+"""
+# Database setup ends here
 
-def get_all_movies(db_connection, table_name):
-    # Your code here
+
+def get_best_and_worst_movies(db_connection, table_name, rating_type, order_dir, limit=5):
     pass
