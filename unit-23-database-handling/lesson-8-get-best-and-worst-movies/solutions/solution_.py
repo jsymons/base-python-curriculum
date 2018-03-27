@@ -36,11 +36,10 @@ INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Blac
 
 
 
-def get_best_and_worst_movies(db_connection, table_name, rating_type, order_dir, limit=5):
-    query = ('SELECT title, {rating_type} FROM {table_name} ORDER BY '
+def get_best_and_worst_movies(db_connection, rating_type, order_dir, limit=5):
+    query = ('SELECT title, {rating_type} FROM marvel ORDER BY '
              '{rating_type} {direction} LIMIT :limit').format(
-                rating_type=rating_type, table_name=table_name,
-                direction=order_dir)
+                rating_type=rating_type, direction=order_dir)
 
     cursor = db_connection.execute(query, {
       'limit': limit

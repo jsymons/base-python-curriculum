@@ -34,5 +34,5 @@ INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Blac
 """)
 
 
-def get_movies_and_directors(db_connection, table_name, limit=5):
+def get_movies_and_directors(db_connection, limit=5):
     pass
