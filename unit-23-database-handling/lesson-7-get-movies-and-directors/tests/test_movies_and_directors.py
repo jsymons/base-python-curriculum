@@ -35,7 +35,7 @@ def test_movies_and_directors():
     INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Black Panther', 'Ryan Coogler', 97, 88);
     """)
 
-    result = get_movies_and_directors('marvel', limit=3)
+    result = get_movies_and_directors(db, 'marvel', limit=3)
     assert len(result) == 3
     assert result[0] == ('Iron Man', 'Jon Favreau')
     assert result[2] == ('Iron Man 2', 'Jon Favreau')

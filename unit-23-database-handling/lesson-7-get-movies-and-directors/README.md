@@ -7,7 +7,7 @@ Search the 'marvel' movie table in the database and return the title and directo
 Example:
 
 ```python
-get_movies_and_directors('marvel', limit=3)
+get_movies_and_directors(db, 'marvel', limit=3)
 
 '''
 [('Iron Man', 'Jon Favreau'), ('The Incredible Hulk', 'Louis Leterrier'),
