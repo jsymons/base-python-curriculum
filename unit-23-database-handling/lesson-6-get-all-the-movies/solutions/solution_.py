@@ -2,6 +2,7 @@ import sqlite3
 
 def get_all_movies(table_name):
     result = []
-    for row in db.execute('SELECT * FROM %s;', (table_name,)):
+    params = ['table_name']
+    for row in db.execute('SELECT * FROM ?;', params):
         result.append(row)
     return result
