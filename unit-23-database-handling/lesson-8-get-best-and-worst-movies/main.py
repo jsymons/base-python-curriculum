@@ -32,7 +32,7 @@ INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (15, 'Guar
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (16, 'Spider-Man: Homecoming', 'Jon Watts', 92, 73);
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (17, 'Thor: Ragnarok', 'Taika Waititi', 92, 74);
 INSERT INTO marvel (id, title, director, tomatoes, metacritic) VALUES (18, 'Black Panther', 'Ryan Coogler', 97, 88);
-"""
+""")
 # Database setup ends here
 
 
