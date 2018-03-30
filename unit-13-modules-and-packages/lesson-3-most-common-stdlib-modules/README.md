@@ -1,0 +1,1 @@
+Notebook of this lesson can be found [here](https://github.com/rmotr-curriculum/base-python-curriculum/blob/master/unit-13-modules-and-packages/lesson-3-most-common-stdlib-modules/Python%20stdlib%20Modules.ipynb).
