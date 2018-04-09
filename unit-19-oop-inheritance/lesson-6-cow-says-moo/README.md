@@ -12,7 +12,7 @@ Each subclass should have a `sound` attribute for that particular animal.
 * The sound for `Sheep` is `"baaaaa"`
 * The sound for `Fox` is `"Ring-ding-ding-ding-dingeringeding"`
 
-Try and take advantage of the `super` keyword in the subclasses for the `__init__` method (the `Animal` class should only store the attribute `name`, but the subclasses also store the attribue `sound`).
+Try and take advantage of the `super` keyword in the subclasses for the `__init__` method (the `Animal` class should only store the attribute `name`, but the subclasses also store the attribute `sound`).
 
 Example:
 
