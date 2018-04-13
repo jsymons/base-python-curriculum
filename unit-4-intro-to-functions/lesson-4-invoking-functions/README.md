@@ -1,6 +1,6 @@
 # Invoking Functions
 
-The first step to understand functions from a practical standpoint is using them. The fancy tech name we give to the action of "using" a function is is "_invoke_ a function". Python has many functions that we can just use out of the box. For example, `print` is a function (**check the notes below**) that lets you send characters to the console. Let's see a few different examples of _invoking_ the `print` function:
+The first step to understand functions from a practical standpoint is using them. The fancy tech name we give to the action of "using" a function is "_invoke_ a function". Python has many functions that we can just use out of the box. For example, `print` is a function (**check the notes below**) that lets you send characters to the console. Let's see a few different examples of _invoking_ the `print` function:
 
 ```python
 print("Hello World")
