@@ -1,1 +1,1 @@
-
+Access the Jupyter Notebook for this lesson [here](https://github.com/rmotr-curriculum/base-python-curriculum/blob/master/unit-7-collections-part-1/lesson-1-intro-to-collections/Intro%20to%20Collections.ipynb)
