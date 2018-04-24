@@ -31,5 +31,5 @@ result = {
     'd3': None
 }
 
-sum_of_dict_values(d1, d2, d3) == result
+get_largest_numbers(d1, d2, d3) == result
 ```
