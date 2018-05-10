@@ -14,5 +14,7 @@ Examples:
 ```
 
 Hint:
-You'll need variables to store your result string and a number keeping track of what loop your on.
-You might need to use the str() function to change an integer into a string at some point.
+_You'll need variables to store your result string and a number keeping track of what loop your on.
+You might need to use the str() function to change an integer into a string at some point._
+
+**Important:** We've recorded a video with the solution of this exercise, in case you get stuck: [https://youtu.be/i5Ve2ePni00](https://youtu.be/i5Ve2ePni00).
