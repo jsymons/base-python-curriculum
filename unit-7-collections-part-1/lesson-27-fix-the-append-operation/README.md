@@ -1,4 +1,4 @@
-# Fix the Append Error
+# Fix the Append Operation
 
 The function provided is **broken**. Your job is to figure out what's going on and fix it.
 
