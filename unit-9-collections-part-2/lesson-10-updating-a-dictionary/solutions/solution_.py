@@ -1,6 +1,6 @@
 rmotr_dict = {
     'name': 'RMOTR',
-    'courses': ['Intro to Python', 'Advanced Pyhton'],
+    'courses': ['Intro to Python', 'Advanced Python'],
 }
 
 rmotr_dict['name'] = 'rmotr.com'
