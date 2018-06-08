@@ -4,9 +4,9 @@ Define a function `population_growth` that receives an initial population,
 annual rate of growth, and target population. Use a while loop to calculate 
 how many years it takes to go over the target population and return it. If
 the annual growth rate is not greater than zero, return 'invalid growth rate'.
-Do not use math.pow or the x**y operator.
+Do not use `math.pow` or the `x**y` operator.
 
-Target = Initial * (1 +rate)^(number of years)
+Target = `Initial * (1 + rate)^(number of years)`
 
 
 Examples:
