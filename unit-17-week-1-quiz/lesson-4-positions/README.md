@@ -1,6 +1,6 @@
 # Positions
 
-Write a function `positions` that receives a string and 3 words, and gives you the positions of those words in the original string. Example:
+Write a function `positions` that receives a string and 3 words, and returns the positions of each in the original string. Example:
 
 ```python
 # Positions:
