@@ -1,7 +1,5 @@
 # Population growth
 
-> There's a walkthrough explanation of the solution in this video: [https://youtu.be/xtWsbLAp0IU](https://youtu.be/xtWsbLAp0IU). Notebook can be found [here](https://github.com/rmotr-curriculum/base-python-curriculum/blob/master/unit-5-intro-to-control-flow/lesson-31-population-growth/Population%20Growth%20Explanation.ipynb).
-
 Define a function `population_growth` that receives an initial population,
 annual rate of growth, and target population. Use a while loop to calculate 
 how many years it takes to go over the target population and return it. If
