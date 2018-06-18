@@ -1,2 +1,2 @@
 def my_function(x):
-    return x / 2
+    return x * 5
