@@ -7,15 +7,14 @@ Write a function `nested_pyramid` that receives a number `height` and a characte
 nested_pyramid(5, '*')
 *
 **
+***
 ****
 *****
-******
-
 ```
 
 **A pyramid with 3 levels:**
 ```python
-nested_pyramid(5, '#')
+nested_pyramid(3, '#')
 #
 ##
 ###
