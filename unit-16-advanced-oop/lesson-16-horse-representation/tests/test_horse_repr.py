@@ -1,4 +1,4 @@
-def test_horse_str():
+def test_horse_repr():
     horse1 = Horse("Mr. Ed", "Saddlebred")
     horse2 = Horse("Charlie", "Unicorn")
     horse3 = Horse("Harry Trotter", "Clydesdale")
