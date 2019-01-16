@@ -1,1 +1,1 @@
-
+The notebook for this lesson can be found [here](https://github.com/rmotr-curriculum/base-python-curriculum/blob/master/unit-9-collections-part-2/lesson-1-intro-to-dictionaries/Intro%20to%20Dictionaries.ipynb).
