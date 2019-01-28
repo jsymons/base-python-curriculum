@@ -1,1 +1,1 @@
-
+Notebook with Operators reference can be found [here](https://github.com/rmotr-curriculum/base-python-curriculum/blob/master/unit-3-operators/lesson-1-intro-to-operators/Intro%20to%20Operators.ipynb).
