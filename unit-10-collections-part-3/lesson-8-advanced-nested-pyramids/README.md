@@ -24,7 +24,7 @@ nested_pyramid(5, '*', 'DESC')
 
 **A pyramid with 3 levels ASC:**
 ```python
-nested_pyramid(5, '#', 'ASC')
+nested_pyramid(3, '#', 'ASC')
 #
 ##
 ###
@@ -32,7 +32,7 @@ nested_pyramid(5, '#', 'ASC')
 
 **A pyramid with 3 levels DESC:**
 ```python
-nested_pyramid(5, '@', 'DESC')
+nested_pyramid(3, '@', 'DESC')
 @@@
 @@
 @
