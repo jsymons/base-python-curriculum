@@ -4,7 +4,7 @@ Extend your previous solution to include a third parameter "order" which can be 
 
 **A pyramid with 5 levels ASC:**
 ```python
-nested_pyramid(5, '*', 'ASC')
+advanced_nested_pyramid(5, '*', 'ASC')
 *
 **
 ****
@@ -14,7 +14,7 @@ nested_pyramid(5, '*', 'ASC')
 
 **A pyramid with 5 levels DESC:**
 ```python
-nested_pyramid(5, '*', 'DESC')
+advanced_nested_pyramid(5, '*', 'DESC')
 *****
 ****
 ***
@@ -24,7 +24,7 @@ nested_pyramid(5, '*', 'DESC')
 
 **A pyramid with 3 levels ASC:**
 ```python
-nested_pyramid(3, '#', 'ASC')
+advanced_nested_pyramid(3, '#', 'ASC')
 #
 ##
 ###
@@ -32,7 +32,7 @@ nested_pyramid(3, '#', 'ASC')
 
 **A pyramid with 3 levels DESC:**
 ```python
-nested_pyramid(3, '@', 'DESC')
+advanced_nested_pyramid(3, '@', 'DESC')
 @@@
 @@
 @
